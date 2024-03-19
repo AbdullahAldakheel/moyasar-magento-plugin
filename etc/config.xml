@@ -13,6 +13,8 @@
                 <webhook_url>{{secure_base_ur}}moyasar_magento2/order/webhook</webhook_url>
                 <webhook_secret></webhook_secret>
                 <enable_cron>0</enable_cron>
+                <one_click_payment>0</one_click_payment>
+                <one_click_payment_title>Buy Now with 1 Click</one_click_payment_title>
             </moyasar_payments>
             <moyasar_payments_stc_pay>
                 <active>1</active>

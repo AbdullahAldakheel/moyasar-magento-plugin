@@ -91,6 +91,21 @@
                         <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                     </field>
 
+                    <field id="one_click_payment" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="11"
+                           translate="label" type="select">
+                        <label>One Click Payment</label>
+                        <comment>Allow to buy a product with one click</comment>
+                        <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                        <config_path>payment/moyasar_payments/one_click_payment</config_path>
+                    </field>
+
+                    <field id="title" translate="label" type="text" sortOrder="12" showInDefault="1" showInWebsite="1"
+                           showInStore="1">
+                        <label>One Click Payment Title</label>
+                        <config_path>payment/moyasar_payments/one_click_payment_title</config_path>
+                        <comment>One click payment button title in product page.</comment>
+                    </field>
+
 
                 </group>
                 <group id="moyasar_payments" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="3"
